@@ -6,6 +6,6 @@ int main() {
 
 	std::cout << "Berserk\n\n";
 	std::cout << "Берсерк\n";
-
+	//gg
 	return 0;
 }
