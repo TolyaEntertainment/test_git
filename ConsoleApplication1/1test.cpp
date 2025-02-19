@@ -1,26 +1,20 @@
 #include <iostream> 
 
-int main() {
-	system("chcp 1251");
-	setlocale(LC_ALL, "RU");
+int main()
+{
+    int num;
+    std::cin >> num;
 
-	bool I_understood = true;
-	int num1;
-	std::cout << "введите число: ";
-	std::cin >> num1;
-	if (num1 > 3 || I_understood == false) { // !I_understood
-		std::cout << "num1 > 3\n";
-	}
+    switch (num) {
+    case 5: std::cout << "num is 5 ";
+        break;
 
-	else if (num1 == 3) {
-		std::cout << "num1 = 3\n";
+    case 6: std::cout << "num is 6 ";
+        break;
 
-	}
-	else {
-		std::cout << "num1 <3\n";
+    default: std::cout << "default ";
+        break;
+    }
 
-	}
-	
-	return 0;
-
+    return 0;
 }
